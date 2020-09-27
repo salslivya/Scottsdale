@@ -1,0 +1,40 @@
+{
+  "name": "scottsdale",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "less": "^3.12.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-uglify-es": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && gulp serve",
+    "build": "gulp less",
+    "serve": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salslivya/Scottsdale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salslivya/Scottsdale/issues"
+  },
+  "homepage": "https://github.com/salslivya/Scottsdale#readme",
+  "description": ""
+}

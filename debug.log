@@ -1,0 +1,31 @@
+[0905/183533.497:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0905/183533.559:ERROR:exception_snapshot_win.cc(99)] thread ID 3516 not found in process
+[0926/224639.981:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/225639.986:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/225639.987:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/230139.983:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/231639.983:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/233139.984:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/234639.985:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/000139.985:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/001639.986:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/003139.987:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/004639.987:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/010139.988:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/011639.990:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/011651.551:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/151024.613:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/152524.614:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/154024.653:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/155524.655:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/161024.657:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/162524.658:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/163528.873:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/163635.738:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/164024.674:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/164911.808:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/165524.700:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/171024.701:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/172524.701:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/174024.703:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0927/211745.535:ERROR:crash_report_database_win.cc(428)] unexpected header
