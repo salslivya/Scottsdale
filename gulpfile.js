@@ -9,7 +9,7 @@ var reload = browserSync.reload;
 var config = {
 	paths:{
 		less: './less/**/*.less', // путь к файлам less
-		html: './index.html' // путь к index.html
+		html: './**/*.html' // путь к index.html
 	},
 	output:{
 		cssname: 'rezstyle.css', // все файлы less, данного проекта, сохраняем в один файл rezstyle.css

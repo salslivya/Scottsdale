@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scottsdale</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/rezstyle.css">
 
 </head>
 
@@ -42,7 +42,7 @@
     
         <main class="page-main">
             <p class="page-main__title">Scottsdale</p>
-            <img class="page-main__image" src="./images/0.jpg" alt="Scottsdale">
+            <img class="page-main__image" src="./images/src/0.jpg" height="300" width='320' alt="Scottsdale">
         
             <div class="feedback">
                 <h2 class="feedback__title">Оставьте свой отзыв</h2>
@@ -53,30 +53,30 @@
             <div class="data">
                 <h2 class="data__title">Ваши данные:</h2>
                 <div class="data__name data__item">
-                    <label for="name"> Имя</label>
-                    <input type="text" name="name" id="name" placeholder="Введите имя">
+                    <label class="name" for="name"> Имя:</label>
+                    <input class="placeholder" type="text" name="name" id="name" placeholder="Введите имя">
                 </div>
                 <div class="data__lastname data__item">
-                    <label for="lastname"> Фамилия</label>
-                    <input type="text" name="lastname" id="lastname" placeholder="Введите фамилию">
+                    <label class="name" for="lastname"> Фамилия:</label>
+                    <input class="placeholder" type="text" name="lastname" id="lastname" placeholder="Введите фамилию">
                 </div>
                 <div class="data__patronymic data__item">
-                    <label for="patronymic"> Отчество</label>
-                    <input type="text" name="patronymic" id="patronymic" placeholder="Введите отчество">
+                    <label class="name" for="patronymic"> Отчество:</label>
+                    <input class="placeholder" type="text" name="patronymic" id="patronymic" placeholder="Введите отчество">
                 </div>
             </div>
 
 
             <div class="cont-info">
                 <h2 class="cont-info__title">Контактная информация:</h2>
-                <div class="cont-info__tel">
-                    <label for="tel"> Контактный телефон</label>
-                    <input type="text" name="tel" id="tel" placeholder="Введите телефон">
+                <div class="cont-info__item">
+                    <label class="name" for="tel"> Контактный телефон: </label>
+                    <input class="placeholder"  type="text" name="tel" id="tel" placeholder="Введите телефон">
                     <p><i></i></p>
                 </div>
-                <div class="cont-info__email"> 
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Введите email">
+                <div class="cont-info__item"> 
+                    <label class="name" for="email">Электронная почта:</label>
+                    <input class="placeholder" type="text" name="email" id="email" placeholder="Введите email">
                     <p><i></i></p>
                 </div>
             </div>
@@ -86,11 +86,11 @@
                     <b>Общее впечатление:</b>
                 </p>
                 <p class="impression__answer">
-                    <input name="impression" type="radio" value="positive"> Положительное</p>
+                    <input class="circle" name="impression" type="radio" value="positive"> Положительное</p>
                 <p class="impression__answer">
-                    <input name="impression" type="radio" value="negative"> Отрицательное</p>
+                    <input class="circle" name="impression" type="radio" value="negative"> Отрицательное</p>
                 <p class="impression__answer">
-                    <input name="impression" type="radio" value="pdzen" checked> Затрудняюсь ответить</p>
+                    <input class="circle" name="impression" type="radio" value="pdzen" checked> Затрудняюсь ответить</p>
             </div>
 
 
@@ -107,18 +107,18 @@
                 <button class="interested-in__button">Ок</button>
             </div>
 
-            <button>Закрыть окно</button>
+            <button class="close">Закрыть окно</button>
         </main>
         <footer>
             <p class="hashtag"></p>
             <ul class="social__list">
                 <li class="social__item">
-                    <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+                    <a class="social__link social__link--youtube" href="https://www.instagram.com/htmlacademy"></a>
                 </li>
                 <li class="social__item">
-                    <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+                    <a class="social__link social__link--facebook" href="https://www.instagram.com/htmlacademy"></a>
                 <li class="social__item">
-                    <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+                    <a class="social__link social__link--twitter" href="https://www.instagram.com/htmlacademy"></a>
                 </li>
             </ul>
 
