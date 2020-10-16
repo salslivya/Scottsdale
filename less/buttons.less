@@ -1,41 +1,68 @@
 
-.main-nav__toggle{
-    display: flex;
-}
-
-
- .interested-in__button, .close {
-    color: white;
-    background-color: #996ebf;
-    .bold;
-    width: 62%;
-    border: none;
-    margin-top: 6.5%;
+@media (min-width: 320px) {
     
-        
+    .fa-bars {
+        color:@blue;
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+     .interested-in__button, .close {
+        color: white;
+        background-color:@blue;
+        .bold;
+        width: 62%;
+        border: none;
+        margin-top: 3.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
+
+@media (min-width: 768px) {
+    .main-nav__toggle{
+        display: none;
+    }
+
+    
+    .interested-in__button, .close {
+        color: white;
+        background-color:@blue;
+        .bold;
+        width: 30%;
+        border: none;
+        margin-top: 3.5%;
+        .dispcol;
+        align-items: center;
+        margin-top:0;
+        padding:1%;
+    }
+}
+
 
 .social__link {
     display: flex;
+}   
 
-    &--youtube {
-          background-image:url(../images/src/youtube.png);
-          height: 5px;
-          width:5px;
-    }
-
-    &--facebook {
-        height: 5px;
-        width:5px;
-        background-image:url(../images/src/facebook.png);
-    }
-
-    &--twitter {
-        height: 5px;
-        width:5px;
-        background-image:url(../images/src/twitter.png);
-    }
-
+.fa-youtube {
+       color: white;
+       font-size: 14px;
 }
+
+.fa-facebook {
+        color: white;
+       font-size: 14px;
+}
+
+.fa-twitter  {
+        color: white;
+       font-size: 14px;
+}
+
+
 
  

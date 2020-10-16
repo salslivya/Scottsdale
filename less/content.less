@@ -1,131 +1,656 @@
-@media (min-width: 320px) {
-    
-    
-    .scottsdale {
-        .dispcol;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    .triangle {
-        width: 0;
-        height: 0;
-        position: relative;
-        border-left: 200px solid transparent;
-        border-right: 200px solid transparent;
-        border-top: 20px solid rgb(255, 255, 255);
-    }
-
-
-
-
-
-
-    .scottsdale__title {
-        .bold;
-        color: black;
-        text-align:center;
-        padding-top: 9%;
-    }
-
-    .scottsdale__description {
-        .light;
-        color: black;
-        text-align:center;
-        padding: 6.25%;
-    }
-
-    .advantages {
+@media (min-width:320px) {
+  .page-main {
     .dispcol;
-        align-items: center;  
-        text-align:center;
-        margin-top:-20px;
+    width: 320px;
+    height: 100%;
+  }
+  
+  .page-main__item {
+    background-image: url("../images/src/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 767px;
+  }
+
+  .page-main__title {
+    height: 400px;
+  }
+
+    .page-main__image {
+      //     border-left: 200px solid transparent;
+      //     border-right: 200px solid transparent;
+      //     border-top: 20px solid rgb(255, 255, 255);
+      order: 2;
     }
 
-
-
-    .advantages__title {
-        .bold;
-        padding-top: 9%;
-    }
-
-
-    .hr {
-        width: 280px;
-        background-color: #eee;
-        padding-left: 20px;
-        display: flex;
-    }
-
-    .advantages__item {
-        background-color: #996ebf;
-        .dispcol;
-        color:white;
-
-        &--dark {
-            background-color: #eee;
-            color: black;
-        }
-    }
-
-    .advantage__number, .advantage__description {
-            .light;
-            padding-bottom: 6.25%;
-    }
-
-    .advantage__image {
-        min-width: 320px;
-    }
-
-    .joys {
+  .scottsdale {
     .dispcol;
-        background-color: #fff;
-        padding-left:20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
+  }
+
+  .scottsdale__title {
+    .bold;
+    color: black;
+    text-align: center;
+    padding-top: 7%;
+    width: 86%;
+  }
+
+  .scottsdale__description {
+    .light;
+    color: black;
+    text-align: center;
+    padding: 6.25%;
+  }
+
+  .advantages {
+    .dispcol;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+    width:320px;
+  }
+
+  .advantages__list {
+    width: 100%;
+  }
+
+  .advantages__title {
+    .bold;
+    padding-top: 9%;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 86%;
+  }
+
+  .hr {
+    width: 280px;
+    background-color: #eee;
+    padding-left: 20px;
+    display: flex;
+  }
+
+  .advantages__item {
+    background-color:@blue;
+    .dispcol;
+    color: white;
+
+    &--dark {
+      background-color: #eee;
+      color: black;
+      width:86%;
+      .dispcol;
+      align-items: center;
+      padding-left:7%;
+      padding-right:7%;
     }
 
-    .joys_item {
-        .dispcol;
+     &--image {
+      background-color: @blue;
+      color: white;
+      min-width: 320px;
+      max-width: 767px;
     }
+  }
 
-    .housing {
-        .disprow;
-        align-items: center;
-        vertical-align: middle;
+  .advantage__number,
+  .advantage__description {
+    .light;
+    padding-bottom: 6.25%;
+  }
+
+  .advantage__description {
+    padding-left: 7%;
+    width:86%;
     
+
+  }
+
+  .advantage__image {
+    box-sizing: content-box;
+    height: 200px;
+  }
+
+  .joys {
+    .dispcol;
+    background-color: #fff;
+    padding-left: 20px;
+  }
+
+  .joys_item {
+    .dispcol;
+  }
+
+  .housing {
+    .disprow;
+    align-items: flex-end;
+  }
+
+  .housing__image {
+    margin-right: 6.25%;
+  }
+
+  .housing__title,
+  .interested-in__title {
+    padding-top: 9%;
+    .bold;
+    color: black;
+  }
+
+  .housing__description {
+    align-items: center;
+    display: flex;
+    padding-left: 19%;
+    text-align: left;
+  }
+
+  .housing__description,
+  .interested-in__description {
+    .light;
+    color: black;
+    padding-top: 6.25%;
+  }
+
+  .interested-in {
+    .dispcol;
+    width: 86%;
+    text-align: center;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .interested-in__image {
+    margin-top: 9%;
+    height: 200px;
+  }
+
+  .interested-in__description {
+    padding-left: 3.125%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+  .page-main {
+    .dispcol;
+    width: 768px;
+    height: 100%;
+  }
+
+  .page-main__title{
+    width:100%;
+    height: 80%;
+    box-sizing: inherit;
+  }
+
+  .page-main__item {
+    background-image: url("../images/src/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1200px;
+  }
+
+  .scottsdale {
+    .dispcol;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
+  }
+
+  .scottsdale__title {
+    .bold;
+    color: black;
+    text-align: center;
+    padding-top: 6%;
+    width:70%;
+  }
+
+  .scottsdale__description {
+    .light;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width:70%;
+  }
+
+  .advantages {
+    .dispcol;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+    width: fit-content;
+  }
+
+  .advantages__title {
+    .bold;
+    padding-top: 9%;
+    width:80%;
+    box-sizing: content-box;
+    height: 20%;
+  }
+
+ 
+
+  .advantages__list {
+    width: 768px;
+  }
+
+  .advantages__item {
+    background-color:@blue;
+    .dispcol;
+    height: 250px;
+    width: 768px;
+   
+    color: white;
+
+      &--image {
+      .disprow;
+      height: 250px;
+      align-items: center;
     }
 
-    .housing__image {
-        margin-right: 20px;
+    &--dark {
+      background-color: #eee;
+      color: black;
+      align-items: center;
+      height: 200px;
+      width: 33.3%;
+      .dispcol;
+    }
+  }
+
+  .hr {
+    border-left: 1px solid white;
+    width:0;
+    padding-left:0;
+  }
+
+  .advantages__text{
+    .dispcol;
+    height: fit-content;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+
+    &--two {
+      order:2;
+      width: 40%;
+      align-items: center;
+      height: fit-content;
+      .dispcol;
+    }
+  }
+
+
+
+  .advantages__row{
+    .disprow;
+    align-items: center;
+  }
+
+
+  .advantage__number,
+  .advantage__description {
+    .light;
+    padding-bottom: 6.25%;
+  }
+
+  .advantage__description {
+    padding-left: 0;
+    width:80%;
+    display: inline-flex;
+  }
+
+  .advantage__image {
+    height: -webkit-fill-available;
+    width:60%;
+    background-size: cover;
+  }
+
+  .joys {
+    .disprow;
+    background-color: #fff;
+    width: 100%;
+    padding-left:0;
+    height: 200px;
+  }
+
+  .joys_item {
+    .dispcol;
+    width: 33%;
+    align-items: center;
+  }
+  
+
+  .housing {
+    .dispcol;
+    align-items: center;
+    margin-top: 10%;
+
+  }
+
+  .housing__image {
+    margin-right: 0;
+  }
+
+  .housing__title{
+    padding-top: 3%;
+  }
+
+
+
+  .housing__title,
+  .interested-in__title {
+    .bold;
+    color: black;
+    
+  }
+
+  .housing__description {
+    align-items: center;
+    .dispcol;
+    text-align: center;
+    padding: 0;
+    flex: auto;
+    padding-top: 3%;
+    width:80%;
+    box-sizing: content-box;
+    height: 50%;
+  }
+
+  .housing__description,
+  .interested-in__description {
+    .light;
+    color: black;
+    
+    padding-bottom: 3%;
+  }
+
+  .interested-in {
+    .dispcol;
+    text-align: center;
+    align-items: center;
+    width:748px;
+  }
+
+  .interested-in__title{
+    padding-top: 5%;
+  }
+
+  .interested-in__image {
+    margin-top: 5%;
+    width:inherit;
+
+  }
+
+  .interested-in__description {
+    padding-left: 0;
+    width:80%;
+    padding-top: 3%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .page-main {
+    .dispcol;
+    width: 1200px;
+    height: 100%;
+  }
+
+  .page-main__title{
+    width:100%;
+    height: 80%;
+    box-sizing: inherit;
+  }
+
+  .page-main__item {
+    background-image: url("../images/src/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1200px;
+  }
+
+  .scottsdale {
+    .dispcol;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
+  }
+
+  .scottsdale__title {
+    .bold;
+    color: black;
+    text-align: center;
+    padding-top: 6%;
+    width:70%;
+  }
+
+  .scottsdale__description {
+    .light;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width:70%;
+  }
+
+  .advantages {
+    .dispcol;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+    width: fit-content;
+  }
+
+  .advantages__title {
+    .bold;
+    padding-top: 9%;
+    width:80%;
+    box-sizing: content-box;
+    height: 20%;
+  }
+
+ 
+
+  .advantages__list {
+    width: 1200px;
+  }
+
+  .advantages__item {
+    background-color:@blue;
+    .dispcol;
+    height: 250px;
+    width: 1200px;
+   
+    color: white;
+
+      &--image {
+      .disprow;
+      height: 250px;
+      align-items: center;
     }
 
-
-    .housing__title, .interested-in__title {
-        padding-top: 9%;
-        .bold;
-        color: black;
+    &--dark {
+      background-color: #eee;
+      color: black;
+      align-items: center;
+      height: 200px;
+      width: 33.3%;
+      .dispcol;
     }
+  }
 
-    .housing__description {
-        align-items: center;
-        display: flex;
+  .hr {
+    border-left: 1px solid white;
+    width:0;
+    padding-left:0;
+  }
+
+  .advantages__text{
+    .dispcol;
+    height: fit-content;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+
+    &--two {
+      order:2;
+      width: 40%;
+      align-items: center;
+      height: fit-content;
+      .dispcol;
     }
-
-    .housing__description, .interested-in__description  {
-        .light;
-        color: black;
-        padding-top: 6.25%;
-        }
+  }
 
 
-    .interested-in {
-        .dispcol;
-        width:320px;
-        text-align: center;
-    }
 
-    .interested-in__image {
-        margin-top: 9%;
-    }
+  .advantages__row{
+    .disprow;
+    align-items: center;
+  }
+
+
+  .advantage__number,
+  .advantage__description {
+    .light;
+    padding-bottom: 6.25%;
+  }
+
+  .advantage__description {
+    padding-left: 0;
+    width:80%;
+    display: inline-flex;
+  }
+
+  .advantage__image {
+    height: -webkit-fill-available;
+    width:60%;
+    background-size: cover;
+  }
+
+  .joys {
+    .disprow;
+    background-color: #fff;
+    width: 100%;
+    padding-left:0;
+    height: 200px;
+  }
+
+  .joys_item {
+    .dispcol;
+    width: 33%;
+    align-items: center;
+  }
+  
+
+  .housing {
+    .dispcol;
+    align-items: center;
+    margin-top: 10%;
+
+  }
+
+  .housing__image {
+    margin-right: 0;
+  }
+
+  .housing__title{
+    padding-top: 3%;
+  }
+
+
+
+  .housing__title,
+  .interested-in__title {
+    .bold;
+    color: black;
+    
+  }
+
+  .housing__description {
+    align-items: center;
+    .dispcol;
+    text-align: center;
+    padding: 0;
+    flex: auto;
+    padding-top: 3%;
+    width:80%;
+    box-sizing: content-box;
+    height: 50%;
+  }
+
+  .housing__description,
+  .interested-in__description {
+    .light;
+    color: black;
+    
+    padding-bottom: 3%;
+  }
+
+  .interested-in {
+    .dispcol;
+    text-align: center;
+    align-items: center;
+    width:1200px;
+  }
+
+  .interested-in__title{
+    padding-top: 5%;
+  }
+
+  .interested-in__image {
+    margin-top: 5%;
+    width:inherit;
+
+  }
+
+  .interested-in__description {
+    padding-left: 0;
+    width:80%;
+    padding-top: 3%;
+  }
 }
