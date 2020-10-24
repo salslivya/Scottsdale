@@ -9,8 +9,13 @@
     background-image: url("../images/src/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 767px;
+    width: 320px;
   }
+
+   @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+      background-image: url("../img/bg-header@2x.jpg");
+      background-size: 1338px auto;
+    }
 
   .page-main__title {
     height: 400px;
@@ -31,14 +36,14 @@
     overflow: hidden;
   }
 
-  .triangle {
-    width: 0;
-    height: 0;
-    position: relative;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 20px solid rgb(255, 255, 255);
-  }
+  // .triangle {
+  //   width: 0;
+  //   height: 0;
+  //   position: relative;
+  //   border-left: 200px solid transparent;
+  //   border-right: 200px solid transparent;
+  //   border-top: 20px solid rgb(255, 255, 255);
+  // }
 
   .scottsdale__title {
     .bold;
@@ -59,7 +64,7 @@
     .dispcol;
     align-items: center;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -6.25%;
     width:320px;
   }
 
@@ -70,15 +75,13 @@
   .advantages__title {
     .bold;
     padding-top: 9%;
-    padding-left: 7%;
-    padding-right: 7%;
     width: 86%;
   }
 
   .hr {
-    width: 280px;
+    width: 87.5%;
     background-color: #eee;
-    padding-left: 20px;
+    padding-left: 6.25%;
     display: flex;
   }
 
@@ -105,6 +108,12 @@
     }
   }
 
+  .advantages__text, .advantages__text--two{
+    .dispcol;
+    align-items: center;
+    
+  }
+
   .advantage__number,
   .advantage__description {
     .light;
@@ -112,7 +121,6 @@
   }
 
   .advantage__description {
-    padding-left: 7%;
     width:86%;
     
 
@@ -120,13 +128,14 @@
 
   .advantage__image {
     box-sizing: content-box;
-    height: 200px;
+    width: 320px;
+    display: flex;
   }
 
   .joys {
     .dispcol;
     background-color: #fff;
-    padding-left: 20px;
+    padding-left: 6.25%;
   }
 
   .joys_item {
@@ -174,7 +183,7 @@
 
   .interested-in__image {
     margin-top: 9%;
-    height: 200px;
+    width: 320px;
   }
 
   .interested-in__description {
@@ -208,8 +217,16 @@
     background-image: url("../images/src/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 1200px;
+    width: 768px;;
   }
+
+  @media (min-width: 768px) and (min-resolution: 144dpi),
+       (min-width: 768px) and (min-resolution: 1.5dppx) {
+  .page-header__logo {
+    background-image: url("../images/src/1.jpg");
+    background-size: 1500px auto;
+  }
+}
 
   .scottsdale {
     .dispcol;
@@ -219,14 +236,14 @@
     overflow: hidden;
   }
 
-  .triangle {
-    width: 0;
-    height: 0;
-    position: relative;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 20px solid rgb(255, 255, 255);
-  }
+  // .triangle {
+  //   width: 0;
+  //   height: 0;
+  //   position: relative;
+  //   border-left: 200px solid transparent;
+  //   border-right: 200px solid transparent;
+  //   border-top: 20px solid rgb(255, 255, 255);
+  // }
 
   .scottsdale__title {
     .bold;
@@ -249,7 +266,7 @@
     .dispcol;
     align-items: center;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -2.6%;
     width: fit-content;
   }
 
@@ -285,7 +302,7 @@
       background-color: #eee;
       color: black;
       align-items: center;
-      height: 200px;
+      min-height: 200px;
       width: 33.3%;
       .dispcol;
     }
@@ -317,7 +334,6 @@
 
   .advantages__row{
     .disprow;
-    align-items: center;
   }
 
 
@@ -403,6 +419,7 @@
     text-align: center;
     align-items: center;
     width:748px;
+    padding-left: 0;
   }
 
   .interested-in__title{
@@ -441,25 +458,25 @@
     background-image: url("../images/src/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 1200px;
+    width: 1200px;
   }
 
   .scottsdale {
     .dispcol;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    min-height: 200px;
     overflow: hidden;
   }
 
-  .triangle {
-    width: 0;
-    height: 0;
-    position: relative;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 20px solid rgb(255, 255, 255);
-  }
+  // .triangle {
+  //   width: 0;
+  //   height: 0;
+  //   position: relative;
+  //   border-left: 200px solid transparent;
+  //   border-right: 200px solid transparent;
+  //   border-top: 20px solid rgb(255, 255, 255);
+  // }
 
   .scottsdale__title {
     .bold;
@@ -577,7 +594,7 @@
     background-color: #fff;
     width: 100%;
     padding-left:0;
-    height: 200px;
+    min-height: 200px;
   }
 
   .joys_item {

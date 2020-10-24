@@ -65,8 +65,7 @@
 
 
     .page-header__logo-image{
-      width:10%;
-      height: 10%;
+      display: none;
     }
 
 }
@@ -85,7 +84,7 @@
   }
 
   .page-header {
-    .dispcol;
+    .disprow;
     height: 100%;
     width: 768px;
   }
@@ -136,7 +135,6 @@
       height: 40px;
     }
 
-  
 }
 
 
@@ -190,13 +188,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      position: absolute;
-      padding-left: 32%;
+      position: relative;
+      margin-top: -5.1%;
     }
     
     .page-header__logo-image{
       display: flex;
+      width: 55px;
+      height: 40px;
     }
-
   
 }
